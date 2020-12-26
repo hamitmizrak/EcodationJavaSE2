@@ -17,9 +17,18 @@ public class MainTest {
 		 * Gunler degisken = Gunler.PAZar; System.out.println(degisken);
 		 * System.out.println(degisken.ordinal());
 		 */
-		Aylar degisken = Aylar.haziran;
-		System.out.println(degisken);
+		/*
+		 * Aylar degisken = Aylar.haziran; System.out.println(degisken);
+		 */
 		
-		Renkler degisken2 = Renkler.turuncu;
+		// Renkler degisken2 = Renkler.turuncu;
+		/*
+		 * Level seviye = Level.MEDIUM; System.out.println(seviye.getLevelCode());
+		 */
+		
+		Aylar degisken = Aylar.nisan;
+		System.out.println(degisken.getKey());
+		System.out.println(degisken.getValue());
+		
 	}
 }
